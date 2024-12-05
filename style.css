@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  hsl(30, 54%, 90%);
+  text-align: left;
+}
+main {
+  height: 100vh;
+}
+h1 {
+  margin: 20px 0;
+}
+h2 {
+  color: hsl(332, 51%, 32%);
+}
+p,
+span {
+    color: hsl(30, 18%, 34%);
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+}
+footer {
+  padding: 20px 0;
+  text-align: center;
+  height: 60px;
+}
+.font-title {
+  font-family: "Young Serif", serif;
+  color:  hsl(14, 45%, 36%);;
+}
+.font-size {
+  font-size: 22px;
+}
+.color {
+  color:  hsl(14, 45%, 36%);
+}
+.padding {
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.preparation {
+  background-color: hsl(332, 51%, 98%);
+  border-radius: 15px;
+  padding: 20px;
+  font-family: "Outfit", sans serif;
+}
+ul,
+ol {
+    list-style-position: outside;
+    font-family: "Outfit", sans serif;
+    color:  hsl(14, 45%, 36%);
+    margin-left: 20px;
+
+    li {
+        margin-bottom: 10px;
+
+        p,
+        span {
+            margin-left: 10px;
+        }
+    }
+}
+.lists{
+  color: hsl(332, 51%, 32%);
+}
+.table-box {
+  width: 100%;
+
+  table {
+      width: 100%;
+
+  }
+
+  td {
+      padding: 10px 0;
+      border-bottom: 1px solid hsl(30, 54%, 90%);
+  }
+}
+hr {
+  width: 95%;
+  margin: 0 auto;
+  border-top: 1px solid hsl(30, 54%, 90%);
+}
+@media screen and (min-width: 576px) {
+
+  main {
+      padding: 50px;
+  }
+
+  /* container */
+  .container {
+      max-width: 560px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      div.padding {
+          padding: 0;
+      }
+  }
+
+  .card {
+      padding: 40px;
+      border-radius: 20px;
+      margin-bottom: 50px;
+
+      #ingredients,
+      #instructions,
+      #nutrition-value {
+          padding: 0;
+      }
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  /* container */
+  .container {
+      max-width: 710px;
+  }
+}
+
+
+
